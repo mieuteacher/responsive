@@ -1,0 +1,26 @@
+#target {
+
+}
+
+#target::before {
+    content: "123";
+    color: red;
+}
+
+
+#target::after {
+    content: "555";
+    color: green;
+}
+
+#title_project {
+    position: relative;
+}
+#title_project::after {
+    display: block;
+    content: "";
+    width: 19%;
+    border-bottom: 2px solid orange;
+    position: absolute;
+    left: 0;
+}
